@@ -19,14 +19,22 @@ body {
     background-color: #4a0d48;
 }
 
+
 /* Tablet */
 @media (min-width: 768px) and (max-width: 991.98px) {
     .caja {
         height: 120px;
     }
+
+    .amarillo {
+        background-color: #fff000; /* nuevo color para tablet */
+    }
+
+    .morado {
+        background-color: #087f89; /* nuevo color para tablet */
+    }
 }
 
-/* PC */
 @media (min-width: 992px) {
     .caja {
         height: 130px;
